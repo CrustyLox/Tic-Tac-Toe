@@ -162,9 +162,9 @@ clock = pygame.time.Clock()
 board = [' ',' ',' ',' ',' ',' ',' ',' ',' ']
 mouseX = 0
 mouseY = 0
-tic_diagram = pygame.image.load('Data/Sprites/tic.png')
-cross = pygame.image.load('Data/Sprites/cross.png')
-circle = pygame.image.load('Data/Sprites/circle.png')
+tic_diagram = pygame.image.load('data/Sprites/tic.png')
+cross = pygame.image.load('data/Sprites/cross.png')
+circle = pygame.image.load('data/Sprites/circle.png')
 run = True
 player = 'A'
 while run:
